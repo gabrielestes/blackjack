@@ -7,14 +7,21 @@
 #####  2. The single card possessed by the dealer.
 
 ###Output
+-
 #####The user receives advice to *"hit"*, *"stand"*, *"double down"*, *"stand unless you can double down"*, or *"split"*.
 
 ###Resources
+-
 #####Data used to determine the user's optimal move was gathered from the following site:
 >#####http://wizardofodds.com/games/blackjack/strategy/calculator/
 
-##Language
+###Language
+-
 #####Written in Ruby
 
-##Author
+###Author
+-
 #####Gabriel Estes
+
+###Sidenote
+#####Do not open this program in a casino.
