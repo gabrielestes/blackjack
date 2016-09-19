@@ -25,14 +25,14 @@ if first_card == second_card
   end
 ```
 
-###Resources
+##Resources
 #####Data used to determine the user's optimal move was gathered from the following site:
 #####[Blackjack Data](http://wizardofodds.com/games/blackjack/strategy/calculator/)
 
-###Language
+##Language
 #####Written in Ruby
 
-###Author
+##Author
 #####Gabriel Estes
 
 ###Sidenote
