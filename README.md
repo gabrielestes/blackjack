@@ -14,6 +14,7 @@
 -
 #####Data used to determine the user's optimal move was gathered from the following site:
 >#####http://wizardofodds.com/games/blackjack/strategy/calculator/
+-
 
 ###Language
 #####Written in Ruby
