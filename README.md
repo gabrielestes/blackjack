@@ -3,8 +3,8 @@
 ##Synopsis
 
 #####The goal of this blackjack program is to provide statistically favorable advice to a user playing blackjack. Advice is determined by requesting the following information from the user:
-#####  1. The two cards possessed by the user.
-#####  2. The single card possessed by the dealer.
+#####  1. The two cards possessed by the user. (1-10, J, Q, K, A)
+#####  2. The single card possessed by the dealer. (1-10, J, Q, K, A)
 
 ###Output
 #####The user receives advice to *"hit"*, *"stand"*, *"double down"*, *"stand unless you can double down"*, or *"split"*.
