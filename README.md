@@ -35,7 +35,7 @@ if first_card == second_card
 #####2. Download the blackjack.rb file
 >[Click 'Clone or Download'](https://github.com/gabrielestes/blackjack)
 #####3. Locate the file via the Terminal, and run the program:
-```Command Line
+```
 $ruby blackjack.rb
 ```
 
