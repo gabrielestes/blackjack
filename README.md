@@ -16,12 +16,12 @@
 >#####http://wizardofodds.com/games/blackjack/strategy/calculator/
 
 ###Language
--
 #####Written in Ruby
 
 ###Author
--
 #####Gabriel Estes
 
+
 ###Sidenote
+-
 #####Do not open this program in a casino.
