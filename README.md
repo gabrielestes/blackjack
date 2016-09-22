@@ -12,7 +12,7 @@
 
 ##Code
 
-######This is a snippet of code determines the user's type of hand (*pair*, *soft*, or *hard*, respectively). The type of hand is incredibly important in determining which method to pass the card values through. A similar statement exists for all hand types.
+#####This is a snippet of code determines the user's type of hand (*pair*, *soft*, or *hard*, respectively). The type of hand is incredibly important in determining which method to pass the card values through. A similar statement exists for all hand types.
 ```Ruby
 def determine_hand_type
   if @first_card == @second_card
@@ -21,7 +21,7 @@ def determine_hand_type
 ```
 
 ##Data
-####The advanced version of this challenge is to incorporate multiple decks into the data structure. In order to maintain a readable and clean main page, I separated the deck options into three separate Ruby files. In those files, I created a class for each deck; DeckOne, DeckTwo, and DeckThree. DeckThree is for 4+ decks. When the user chooses a deck, a new object is created to represent a data structure that will be referenced as the program generates advice. Below is the method to create the new deck object.
+#####The advanced version of this challenge is to incorporate multiple decks into the data structure. In order to maintain a readable and clean main page, I separated the deck options into three separate Ruby files. In those files, I created a class for each deck; DeckOne, DeckTwo, and DeckThree. DeckThree is for 4+ decks. When the user chooses a deck, a new object is created to represent a data structure that will be referenced as the program generates advice. Below is the method to create the new deck object.
 ```Ruby
 def open_deck
   if @deck == 1
