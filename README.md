@@ -1,5 +1,7 @@
 #Blackjack
+
 ===
+
 ##Synopsis
 
 #####The goal of this blackjack program is to provide statistically favorable advice to a user playing blackjack. Advice is determined by requesting the following information from the user:
@@ -7,8 +9,10 @@
 #####  2.The two cards possessed by the user. (1-10, J, Q, K, A)
 #####  3. The single card possessed by the dealer. (1-10, J, Q, K, A)
 
+
 ###Output
 #####The user receives advice to *"hit"*, *"stand"*, *"double down"*, *"stand unless you can double down"*, or *"split"*.
+
 
 ##Code
 
@@ -21,6 +25,7 @@ def determine_hand_type
 ```
 
 ##Data
+
 #####The advanced version of this challenge is to incorporate multiple decks into the data structure. In order to maintain a readable and clean main page, I separated the deck options into three separate Ruby files. In those files, I created a class for each deck; DeckOne, DeckTwo, and DeckThree. DeckThree is for 4+ decks. When the user chooses a deck, a new object is created to represent a data structure that will be referenced as the program generates advice. Below is the method to create the new deck object.
 ```Ruby
 def open_deck
@@ -35,11 +40,15 @@ def open_deck
 end
 ```
 
+
 ##Resources
+
 #####Data used to determine the user's optimal move was gathered from the following site:
 #####[Blackjack Data](http://wizardofodds.com/games/blackjack/strategy/calculator/)
 
+
 ##Requirements
+
 #####1. Up-to-date Ruby language
 [Follow these instructions.](https://www.ruby-lang.org/en/downloads/)
 #####2. Download the blackjack.rb file
@@ -50,9 +59,12 @@ $ruby blackjack.rb
 ```
 
 ##Language
+
 #####Written in Ruby
 
+
 ##Author
+
 #####Gabriel Estes
 
 ###Sidenote
